@@ -1,0 +1,60 @@
+
+@import "../styles/variables.scss";
+
+.header{
+    background-image: url('../assets/images/lb-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding: 6rem 4rem 0rem;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    text-align: center;
+
+    h1, h2{
+        text-align: center;
+        color: $light-gold;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    h2{
+        padding-bottom: 8rem;
+    }
+
+    .profilepicture{
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        margin-top: 8px
+    }
+
+    .profilepicture-border{
+        border-radius: 100%;
+        border: 2px solid white;
+        width: 120px;
+        height: 120px;
+        text-align: center;
+        top: 13.5rem;
+        position: absolute;
+
+        &::after{
+            content: '';
+            position: relative;
+            display: block;
+            margin: auto;
+            width: 30px;
+            height: 30px;
+            rotate: 45deg;
+            border-bottom: solid 2px $gold;
+            border-right: solid 2px $gold;
+            top: -6px;
+
+        }
+    }
+
+    
+}
