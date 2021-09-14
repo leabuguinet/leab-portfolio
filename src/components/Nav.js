@@ -1,6 +1,7 @@
 import React from "react";
 import "./_nav.scss";
-import { useState } from "react"
+import { useState } from "react";
+import { NavLink, Link } from 'react-router-dom';
 
 function Nav() {
 
@@ -14,19 +15,19 @@ function Nav() {
         <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
             <ul className="navbar__links">
                 <li className="navbar__item slideInDown-1">
-                    <a href="/" className="navbar__link">
+                    <NavLink to="/projects" className="navbar__link">
                         Projets
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="navbar__item slideInDown-2">
-                    <a href="/" className="navbar__link">
+                    <NavLink to="/" className="navbar__link">
                         Présentation
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="navbar__item slideInDown-3">
-                    <a href="/" className="navbar__link">
+                    <NavLink to="/contact" className="navbar__link">
                         Contact
-                    </a>
+                    </NavLink>
                 </li>
             </ul>
             <button className="navbar__burger" onClick={handleShowLinks}>
