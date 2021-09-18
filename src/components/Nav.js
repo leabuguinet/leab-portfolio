@@ -2,8 +2,9 @@ import React from "react";
 import "./_nav.scss";
 import { useState } from "react";
 import { NavLink, Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
-function Nav() {
+const Nav = () => {
 
     const[showLinks, setShowLinks] = useState(false)
 
@@ -11,22 +12,25 @@ function Nav() {
         setShowLinks(!showLinks)
     }
 
+    const { t } = useTranslation();
+
+
     return(
         <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
             <ul className="navbar__links">
                 <li className="navbar__item slideInDown-1">
                     <NavLink to="/projects" className="navbar__link">
-                        Projets
+                        { t('Nav.Projects') }
                     </NavLink>
                 </li>
                 <li className="navbar__item slideInDown-2">
                     <NavLink to="/" className="navbar__link">
-                        Présentation
+                        {t('Nav.About')}
                     </NavLink>
                 </li>
                 <li className="navbar__item slideInDown-3">
                     <NavLink to="/contact" className="navbar__link">
-                        Contact
+                        {t('Nav.Contact')}
                     </NavLink>
                 </li>
             </ul>

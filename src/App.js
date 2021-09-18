@@ -6,18 +6,29 @@ import Nav from "./components/Nav";
 import Contact from "./components/Contact";
 import Presentation from "./components/Presentation";
 
+import React from 'react';
+import LangChoice from './components/LangChoice';
+
 
 function App() {
+
+  
+
   return (
 
     <BrowserRouter>
+
       <div>
         <Header />
         <Nav />
+      
         <Route exact path="/" component={Presentation} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
+
+        <LangChoice />
       </div>
+
     </BrowserRouter>
     
   );
