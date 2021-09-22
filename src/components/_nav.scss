@@ -29,6 +29,7 @@
     background-color: white;
     color: white;
     transition: all .5s ease-in-out;
+    
 }
 
 .burger-bar::before,
@@ -49,6 +50,7 @@
 
 /* On click - animation of the burger */
 .show-nav {
+    z-index: 80;
 
     .burger-bar {
         width: 0;
@@ -72,6 +74,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index: 0;
     width: 0;
     right: 0;
     bottom: 0;
@@ -89,15 +92,27 @@
     color: $gold;
 }
 
+.language-btn button{
+    
+    border: none;
+    font-size: 5vw;
+    color: $gold;
+    background-color: transparent;
+    padding: 1.5rem 1rem;
+}
+
 /* When the burger has been clicked on */
 .show-nav .navbar__links {
     right: 0;
     width: 100vw;
     visibility: visible;
+    z-index: 80;
+    
 }
 
 .navbar__item {
     transform: translateY(100vh);
+
 
     //under links
     &::after{
@@ -128,6 +143,10 @@
 
 .show-nav .slideInDown-3 {
     transition: all 1.5s ease-out;
+}
+
+.show-nav .slideInDown-4 {
+    transition: all 1.6s ease-out;
 }
 
 /* HORIZONTAL TABLETS + DESKTOPS */

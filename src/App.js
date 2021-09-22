@@ -26,7 +26,7 @@ function App() {
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
 
-        <LangChoice />
+        {/* <LangChoice /> */}
       </div>
 
     </BrowserRouter>

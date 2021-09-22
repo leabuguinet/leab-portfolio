@@ -11,24 +11,19 @@ class LangChoice extends Component {
   }
   
   render() {
-    const { t } = this.props;
+    //const { t } = this.props;
 
     return (
-      <div className="App">
 
+      <div>
         <button onClick={() => this.handleClick('en')} >
             EN
         </button>
         <button onClick={() => this.handleClick('fr')} >
             FR
         </button>
-         
-        <h3>{t('Nav.Contact')}</h3>  
-        
-        <h3>{t('Why.1')}</h3>
-   
-
       </div>
+
     )
   }
 }

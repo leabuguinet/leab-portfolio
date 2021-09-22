@@ -11,10 +11,16 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2{
+h1, h2, h3{
 	//font-family: 'Snippet', sans-serif;
 	//font-family: 'Fira Sans', sans-serif;
-	font-family: 'Niramit', sans-serif;
+	//font-family: 'Niramit', sans-serif;
+	font-family: 'Signika', sans-serif;
+	font-weight: 200;
+}
+
+h3{
+	font-size: 2rem;
 }
 
 
@@ -25,11 +31,17 @@ ul {
 	margin: 0;
 }
 
-a {
+a, button {
 	text-decoration: none;
 	//font-family: 'Fira Sans', sans-serif;
 	//font-family: 'Snippet', sans-serif;
 	//font-family: 'Bellota', cursive;
-	font-family: 'Niramit', sans-serif;
+	font-family: 'Signika', sans-serif;
+	//font-family: 'Niramit', sans-serif;
 	font-weight: 200;
+	cursor: pointer;
+}
+
+.container{
+	padding: 7rem 3rem 1rem 3rem;
 }

@@ -1,0 +1,71 @@
+@import "../styles/variables.scss";
+@import "../styles/breakpoints.scss";
+
+/* About Section */
+
+.hi-span{
+    float: left;
+    margin: 0px 10px 0px 1px;
+    //font-family: 'Niramit', sans-serif;
+    font-family: 'Signika', sans-serif;
+    font-size: 4rem;
+    line-height: 52px;
+    color: $gold;
+}
+
+/* Divider */
+
+.custom-shape-divider-top-1632154628 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1632154628 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 88px;
+}
+
+.custom-shape-divider-top-1632154628 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+/* Technologies Section  */
+
+.about-technologies{
+    position: relative;
+    background-color: $light-gold;
+    
+
+    .technologies-box{
+
+        
+
+        h3{
+
+            text-align: center;
+        }
+
+    }
+
+    .technologies-list{
+
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        ul{
+            li{
+                padding: 5px;
+            }
+        }
+
+    }
+}

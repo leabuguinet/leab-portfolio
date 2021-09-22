@@ -1,8 +1,9 @@
 import React from "react";
 import "./_nav.scss";
 import { useState } from "react";
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import LangChoice from "./LangChoice";
 
 const Nav = () => {
 
@@ -33,10 +34,15 @@ const Nav = () => {
                         {t('Nav.Contact')}
                     </NavLink>
                 </li>
+                <li className="navbar__item slideInDown-4 language-btn">
+                    <LangChoice />
+                </li>
             </ul>
             <button className="navbar__burger" onClick={handleShowLinks}>
                 <span className="burger-bar"></span>
             </button>
+
+            
         </nav>
     )
 }
