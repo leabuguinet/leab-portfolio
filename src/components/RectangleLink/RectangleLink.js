@@ -1,8 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
-/* Link component using the i18next translation  */
+/* Internal Link component using the i18next translation + NavLink */
 
 const StyledLink = styled.div`
 a{
@@ -55,11 +56,11 @@ const RectangleLink = (props) => {
 
     return (
 
-
-           
-           <StyledLink><a href={props.href}>{t(props.label)}</a></StyledLink>
-            
-  
+        <StyledLink>
+            <NavLink to={props.href}>
+                {t(props.label)}
+            </NavLink>
+        </StyledLink>
 
     )
 }

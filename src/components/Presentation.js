@@ -1,10 +1,11 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import "../i18n";
+import { Link, NavLink } from 'react-router-dom';
 import RectangleLink from './RectangleLink/RectangleLink';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCss3, faHtml5, faJs, faPhp, faReact, faSass, faSymfony } from '@fortawesome/free-brands-svg-icons';
+import { faCss3, faHtml5, faJs, faPhp, faReact, faSass, faSymfony, faWordpress } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -26,8 +27,8 @@ const Presentation = () => {
                 <div className="about-links">
 
                     <RectangleLink href="/projects" label='Nav.Projects' />
-                    
-                    <a href="/images/lb-profilepicture.jpg" className="about-link-download" download >CV</a>
+
+                    <Link to="/files/leabuguinetcv.pdf" className="about-link-download" target="_blank" download>CV</Link>
 
                 </div>
 
@@ -54,7 +55,8 @@ const Presentation = () => {
                             <li><FontAwesomeIcon icon={faReact} /> React</li>
                             <li><FontAwesomeIcon icon={faSymfony} /> Symfony</li>
                             <li><FontAwesomeIcon icon={faDatabase} /> MySQL</li>
-                            <li><FontAwesomeIcon icon={faHtml5} /> HTML</li>
+                            <li><FontAwesomeIcon icon={faWordpress} /> Wordpress</li>
+                            
 
                         </ul>
 
@@ -63,6 +65,7 @@ const Presentation = () => {
                             <li> <FontAwesomeIcon icon={faPhp} /> PHP</li>
                             <li><FontAwesomeIcon icon={faSass} /> SASS</li>
                             <li><FontAwesomeIcon icon={faCss3} /> CSS</li>
+                            <li><FontAwesomeIcon icon={faHtml5} /> HTML</li>
                             
                         </ul>
                     </div>
