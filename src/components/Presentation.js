@@ -11,6 +11,7 @@ import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 const Presentation = () => {
 
     const { t } = useTranslation();
+ 
 
     return(
         <div>
@@ -21,8 +22,14 @@ const Presentation = () => {
                 </div>
 
                 <p>{t('About.main-paragraph')}</p> 
+                
+                <div className="about-links">
 
-                <RectangleLink label='hello'/>
+                    <RectangleLink href="/projects" label='Nav.Projects' />
+                    
+                    <a href="/images/lb-profilepicture.jpg" className="about-link-download" download >CV</a>
+
+                </div>
 
             </section>
 
