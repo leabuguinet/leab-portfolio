@@ -51,7 +51,7 @@
         transition: all 0.2s ease-in;
         opacity: 0;
     } 
-    &:hover:after{
+    &:hover:after, &:hover:active{
         opacity: 1;
     }
 }

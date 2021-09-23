@@ -20,17 +20,17 @@ const Nav = () => {
         <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
             <ul className="navbar__links">
                 <li className="navbar__item slideInDown-1">
-                    <NavLink to="/projects" className="navbar__link">
+                    <NavLink to="/projects" className="navbar__link" onClick={handleShowLinks}>
                         { t('Nav.Projects') }
                     </NavLink>
                 </li>
                 <li className="navbar__item slideInDown-2">
-                    <NavLink to="/" className="navbar__link">
+                    <NavLink to="/" className="navbar__link" onClick={handleShowLinks}>
                         {t('Nav.About')}
                     </NavLink>
                 </li>
                 <li className="navbar__item slideInDown-3">
-                    <NavLink to="/contact" className="navbar__link">
+                    <NavLink to="/contact" className="navbar__link" onClick={handleShowLinks}>
                         {t('Nav.Contact')}
                     </NavLink>
                 </li>
