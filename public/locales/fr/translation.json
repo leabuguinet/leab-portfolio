@@ -6,5 +6,36 @@
     },
     "About": {
         "main-paragraph": "Moi c'est Léa. Après avoir travaillé dans l'organisation et la communication de projets artistiques et culturels, j'ai décidé d'ajouter une corde à mon arc en devenant développeuse web. Cela me permet d'allier ma rigueur à ma créativité, tout en stimulant ma curiosité et étanchant ma soif d'apprendre."
+    },
+    "Link":{
+        "1": "Voir"
+    },
+    "Project1":{
+        "title": "Archipel Contact",
+        "description": "Refonte complète du site internet de l'agence réceptive Archipel Contact, spécialisée en conception de voyage en Indonésie.",
+        "technologies":"Réalisé avec:",
+        "technologies-used": "Symfony, Sass, mySQL",
+        "link": "https://archipel-contact.com"
+    },
+    "Project2":{
+        "title": "Daily Orsay",
+        "description": "Petit projet en cours avec l'API de la Réunion des Musées Nationaux - Grand Palais. Tous les jours le site propose de découvrir, au hasard, une peinture, une sculpture et une photographie, qui font partie du fonds d'oeuvres du Musée d'Orsay",
+        "technologies":"Réalisé avec:",
+        "technologies-used": "PHP, JavaScript, CSS",
+        "link": "https://archipel-contact.com"
+    },
+    "Project3":{
+        "title": "Portfolio",
+        "description": "Portefolio où vous vous trouvez actuellement ! Il évolue avec le temps, les projets, et mon apprentissage quotidien...",
+        "technologies":"Réalisé avec:",
+        "technologies-used": "React, Sass",
+        "link": "https://archipel-contact.com"
+    },
+    "Project4":{
+        "title": "Find My Art",
+        "description": "Projet de fin de formation : il s'agit d'un site pour une artothèque. Comme dans une bibliothèque, on peut emprunter des oeuvres d'arts et les exposer chez soi pour une durée définie. L'utilisateur peut consulter le catalogue d'oeuvres et en réserver en se connectant à son compte personnel. Le site possède un back-office qui permet aux administrateurs de gérer les comptes utilisateurs et les oeuvres.",
+        "technologies":"Réalisé avec:",
+        "technologies-used": "React, Sass",
+        "link": "https://archipel-contact.com"
     }
   }
