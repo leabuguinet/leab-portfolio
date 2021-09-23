@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import "../i18n";
 import { Link, NavLink } from 'react-router-dom';
-import RectangleLink from './RectangleLink/RectangleLink';
+import IntRectangleLink from './InternalRectangleLink/IntRectangleLink';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faHtml5, faJs, faPhp, faReact, faSass, faSymfony, faWordpress } from '@fortawesome/free-brands-svg-icons';
@@ -26,7 +26,7 @@ const Presentation = () => {
                 
                 <div className="about-links">
 
-                    <RectangleLink href="/projects" label='Nav.Projects' />
+                    <IntRectangleLink href="/projects" label='Nav.Projects' />
 
                     <Link to="/files/leabuguinetcv.pdf" className="about-link-download" target="_blank" download>CV</Link>
 
