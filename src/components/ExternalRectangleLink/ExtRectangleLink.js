@@ -1,9 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';
-import { NavLink } from 'react-router-dom';
 
-/* Internal Link component using the i18next translation + NavLink */
+
+/* External Link component using the i18next translation */
 
 const StyledLink = styled.div`
 a{
@@ -50,19 +50,19 @@ a{
 
 `;
 
-const RectangleLink = (props) => {
+const ExtRectangleLink = (props) => {
 
     const { t } = useTranslation();
 
     return (
 
         <StyledLink>
-            <NavLink to={props.href}>
+            <a href={props.href}>
                 {t(props.label)}
-            </NavLink>
+            </a>
         </StyledLink>
 
     )
 }
 
-export default RectangleLink;
+export default ExtRectangleLink;
