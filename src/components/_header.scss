@@ -1,5 +1,6 @@
 
 @import "../styles/variables.scss";
+@import "../styles/breakpoints.scss";
 
 .header{
     background-image: url('../assets/images/lb-background.jpg');
@@ -7,6 +8,7 @@
     background-repeat: no-repeat;
 
     padding: 6rem 4rem 0rem;
+    margin-bottom: 5rem;
 
     display: flex;
     flex-direction: column;
@@ -55,6 +57,17 @@
 
         }
     }
+}
 
+@include media('>1024'){
+
+    .header{
+        height: 100%;
+        width: 35%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        margin: 0;
     
+    }
 }

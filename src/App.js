@@ -20,13 +20,16 @@ function App() {
 
       <div>
         <Header />
-        <Nav />
-      
-        <Route exact path="/" component={Presentation} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/contact" component={Contact} />
 
-        {/* <LangChoice /> */}
+        <main>
+          <Nav />
+        
+          <Route exact path="/" component={Presentation} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/contact" component={Contact} />
+
+        </main>
+        
       </div>
 
     </BrowserRouter>

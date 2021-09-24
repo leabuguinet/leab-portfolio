@@ -11,6 +11,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+
 h1, h2, h3, h4, h5{
 	//font-family: 'Snippet', sans-serif;
 	//font-family: 'Fira Sans', sans-serif;
@@ -45,4 +46,12 @@ a, button {
 
 .container{
 	padding: 7rem 3rem 1rem 3rem;
+}
+
+
+@include media('>1024'){
+	main{
+		width: calc(100% - 35%);
+		margin-left: 35%;
+	}
 }
