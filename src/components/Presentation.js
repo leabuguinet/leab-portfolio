@@ -17,7 +17,7 @@ const Presentation = () => {
     return(
         <div>
 
-            <section className="container about">
+            <section className="about">
                 <div className="hi-span">
                     <span>Hi!</span>
                 </div>
@@ -32,6 +32,8 @@ const Presentation = () => {
 
                 </div>
 
+                <p>{t('About.second-paragraph')}</p> 
+
             </section>
 
             <section className="about-technologies">
@@ -44,7 +46,7 @@ const Presentation = () => {
 
 
 
-                <div className="container technologies-box">
+                <div className="technologies-box">
 
                     
                     <h3>Technologies</h3>

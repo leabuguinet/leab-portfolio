@@ -6,13 +6,22 @@
 .hi-span{
     float: left;
     margin: 0px 10px 0px 1px;
-    //font-family: 'Niramit', sans-serif;
     font-family: 'Signika', sans-serif;
-    font-size: 4rem;
-    line-height: 52px;
+    font-size: 5rem;
+    line-height: 64px;
     color: $gold;
 }
 
+.about{
+    padding: 2rem 3rem 1rem 3rem;
+}
+
+p:nth-of-type(1){
+    margin-bottom: 3rem;
+}
+p:nth-of-type(2){
+    margin-top: 1rem;
+}
 
 .about-link-download{
     background-color: black;
@@ -83,12 +92,12 @@
 
 .about-technologies{
     position: relative;
+    z-index: -1;
     background-color: $light-gold;
+    padding: 8rem 0 5rem;
     
 
     .technologies-box{
-
-        
 
         h3{
 
@@ -117,4 +126,32 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+}
+
+
+/* RESPONSIVE */
+
+@include media('>=600'){    
+    .about{
+        padding: 2rem 10% 1rem 10%;
+    }
+
+    .hi-span{
+        font-size: 6rem;
+        line-height: 75px;
+    }
+
+}
+
+@include media('>=768'){    
+    .about{
+        padding: 2rem 20% 1rem 20%;
+        
+    }
+
+    .hi-span{
+        font-size: 6rem;
+        line-height: 75px;
+    }
+
 }

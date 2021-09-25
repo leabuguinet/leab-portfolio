@@ -9,6 +9,11 @@
 body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1rem;
+}
+
+body, html {
+	height: 100%;
 }
 
 
@@ -44,12 +49,14 @@ a, button {
 
 }
 
-.container{
-	padding: 7rem 3rem 1rem 3rem;
-}
 
 
 @include media('>1024'){
+	
+	body {
+		font-size: 1.3rem;
+	}
+	
 	main{
 		width: calc(100% - 35%);
 		margin-left: 35%;
