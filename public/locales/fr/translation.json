@@ -1,6 +1,6 @@
 {
     "Nav": {
-        "Projects": "Projets",
+        "Projects": "Portfolio",
         "About": "Présentation",
         "Contact": "Contact"
     },
@@ -9,6 +9,10 @@
     },
     "Link":{
         "1": "Voir"
+    },
+    "Project":{
+        "title": "Portfolio",
+        "main-paragraph":""
     },
     "Project1":{
         "title": "Archipel Contact",
@@ -19,7 +23,7 @@
     },
     "Project2":{
         "title": "Daily Orsay",
-        "description": "Petit projet en cours avec l'API de la Réunion des Musées Nationaux - Grand Palais. Tous les jours le site propose de découvrir, au hasard, une peinture, une sculpture et une photographie, qui font partie du fonds d'oeuvres du Musée d'Orsay",
+        "description": "En cours - Petit projet avec l'API de la Réunion des Musées Nationaux - Grand Palais. Tous les jours le site propose de découvrir, au hasard, une peinture, une sculpture et une photographie, qui font partie du fonds d'oeuvres du Musée d'Orsay",
         "technologies":"Réalisé avec:",
         "technologies-used": "PHP, JavaScript, CSS",
         "link": "https://archipel-contact.com"
@@ -29,13 +33,13 @@
         "description": "Portefolio où vous vous trouvez actuellement ! Il évolue avec le temps, les projets, et mon apprentissage quotidien...",
         "technologies":"Réalisé avec:",
         "technologies-used": "React, Sass",
-        "link": "https://archipel-contact.com"
+        "link": "https://leab.me"
     },
     "Project4":{
         "title": "Find My Art",
-        "description": "Projet de fin de formation : il s'agit d'un site pour une artothèque. Comme dans une bibliothèque, on peut emprunter des oeuvres d'arts et les exposer chez soi pour une durée définie. L'utilisateur peut consulter le catalogue d'oeuvres et en réserver en se connectant à son compte personnel. Le site possède un back-office qui permet aux administrateurs de gérer les comptes utilisateurs et les oeuvres.",
+        "description": "Projet de fin de formation : Find My Art est une artothèque. Comme dans une bibliothèque, l'utilisateur peut emprunter des oeuvres d'arts et les exposer chez soi pour une durée définie. L'utilisateur peut consulter le catalogue d'oeuvres et en réserver en se connectant à son compte personnel. ",
         "technologies":"Réalisé avec:",
-        "technologies-used": "React, Sass",
+        "technologies-used": "Symfony, JavaScript, React, MySQL, CSS",
         "link": "https://archipel-contact.com"
     }
   }

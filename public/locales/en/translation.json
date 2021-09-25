@@ -1,6 +1,6 @@
 {
     "Nav": {
-        "Projects": "Projects",
+        "Projects": "Portfolio",
         "About": "About me",
         "Contact": "Contact"
 
@@ -10,18 +10,23 @@
         
     }, 
     "Link":{
-        "1": "View"
+        "1": "View",
+        "2": "Inception!"
+    },
+    "Project":{
+        "title": "Portfolio",
+        "main-paragraph":""
     },
     "Project1":{
         "title": "Archipel Contact",
-        "description": "Complete redesign and restructuring of the website. Archipel Contact is a travel agency specialised in tailored trips to Indonesia.",
+        "description": "Complete redesign and restructuring of the website. Archipel Contact is an incoming agency specialised in tailored trips to Indonesia.",
         "technologies":"Made with:",
         "technologies-used": "Symfony, Sass, mySQL",
         "link": "https://archipel-contact.com"
     },
     "Project2":{
         "title": "Daily Orsay",
-        "description": "This is a little project that uses the RMN-GP API - a group of French museums. The website displays new artworks everyday, which are part of the Orsay Museum's collection. Click and discover a painting, a sculpture and a photograph !",
+        "description": "WIP - This is a little project that uses the RMN-GP API - a group of French museums. The website displays new artworks everyday, which are part of the Orsay Museum's collection. Click and discover a painting, a sculpture and a photograph !",
         "technologies":"Made with:",
         "technologies-used": "PHP, JavaScript, CSS",
         "link": "https://github.com/leabuguinet/DailyOrsay"
@@ -31,11 +36,11 @@
         "description": "This is where you are right now! My portefolio will evolve through time with new projects... and I will improve it with my everyday learning.",
         "technologies":"Made with:",
         "technologies-used": "React, Sass",
-        "link": "https://archipel-contact.com"
+        "link": "https://leab.me"
     },
     "Project4":{
         "title": "Find My Art",
-        "description": "Find My Art is the final group project made during my professional training. It is an online art library. Just like a library but for art! You can rent the artwork of your choice and display it on your wall for a limited amount of time. Users can connect to their account and book the artworks they want in the website's collection. The website has a back office that allows administrators to manage users accounts and artworks.",
+        "description": "Find My Art is the final group project made during my professional training. It is an online art library. Just like a library but for art! Users can connect to their account and rent the artworks they want in the website's collection for a limited amount of time.",
         "technologies":"Made with:",
         "technologies-used": "Symfony, JavaScript, React, MySQL, CSS",
         "link": "https://github.com/leabuguinet/FindMyArt"
