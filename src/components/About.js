@@ -9,7 +9,7 @@ import { faCss3, faHtml5, faJs, faPhp, faReact, faSass, faSymfony, faWordpress }
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 
-const Presentation = () => {
+const About = () => {
 
     const { t } = useTranslation();
  
@@ -38,7 +38,7 @@ const Presentation = () => {
 
             <section className="about-technologies">
 
-                <div className="custom-shape-divider-top-1632154628">
+                <div className="about-technologies-divider">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                         <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
                     </svg>
@@ -46,7 +46,7 @@ const Presentation = () => {
 
 
 
-                <div className="technologies-box">
+                <div className="technologies-box footer-divider">
 
                     
                     <h3>Technologies</h3>
@@ -72,9 +72,6 @@ const Presentation = () => {
                         </ul>
                     </div>
                         
-                        
-                
-
                 </div>
 
             </section>
@@ -84,4 +81,4 @@ const Presentation = () => {
     
 }
 
-export default Presentation;
+export default About;

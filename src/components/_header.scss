@@ -59,7 +59,7 @@
     }
 }
 
-@include media('>1024'){
+@include media('>=1024'){
 
     .header{
         height: 100%;

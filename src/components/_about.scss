@@ -67,7 +67,7 @@ p:nth-of-type(2){
 
 /* Divider */
 
-.custom-shape-divider-top-1632154628 {
+.about-technologies-divider {
     position: absolute;
     top: 0;
     left: 0;
@@ -76,14 +76,14 @@ p:nth-of-type(2){
     line-height: 0;
 }
 
-.custom-shape-divider-top-1632154628 svg {
+.about-technologies-divider svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 88px;
 }
 
-.custom-shape-divider-top-1632154628 .shape-fill {
+.about-technologies-divider .shape-fill {
     fill: #FFFFFF;
 }
 
@@ -94,10 +94,11 @@ p:nth-of-type(2){
     position: relative;
     z-index: -1;
     background-color: $light-gold;
-    padding: 8rem 0 5rem;
+    padding: 8rem 0 0;
     
-
     .technologies-box{
+
+       padding-bottom: 13rem;
 
         h3{
 

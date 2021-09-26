@@ -1,14 +1,23 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+
+/* Translation */
 import "../i18n";
+
+/* SCSS */
+import "./_portfolio.scss";
+
+/* Components */
 import ProjectBox from './ProjectBox/ProjectBox';
+
+/* Images */
 import archipel from '../assets/images/archipel.png';
 import dailyorsay from '../assets/images/dailyorsay.png';
 import findmyart from '../assets/images/findmyart.png';
 import leabme from '../assets/images/leabme.png';
-import "./_projects.scss";
 
-const Projects = () => {
+
+const Portfolio = () => {
 
     const { t } = useTranslation();
 
@@ -17,7 +26,7 @@ const Projects = () => {
 
             <h3>{t('Nav.Projects')}</h3>
 
-            <section className="projects-section">
+            <section className="projects-section footer-divider">
                 <ProjectBox 
                     img={archipel} 
                     title={t('Project1.title')}
@@ -67,4 +76,4 @@ const Projects = () => {
     
 }
 
-export default Projects;
+export default Portfolio;

@@ -10,10 +10,10 @@ h3{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+    padding-bottom: 15rem;
     
 }
-
-
 
 @include media('>600') {
     .projectbox {

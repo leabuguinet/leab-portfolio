@@ -51,7 +51,7 @@ a, button {
 
 
 
-@include media('>1024'){
+@include media('>=1024'){
 	
 	body {
 		font-size: 1.3rem;
