@@ -24,8 +24,6 @@ const Portfolio = () => {
     return(
         <div>
 
-            <h3>{t('Nav.Projects')}</h3>
-
             <section className="projects-section footer-divider">
                 <ProjectBox 
                     img={archipel} 
@@ -64,7 +62,7 @@ const Portfolio = () => {
                     technologies={t('Project4.technologies')}
                     technologiesused={t('Project4.technologies-used')}
                     href={t('Project4.link')}
-                    label={t('Link.1')}
+                    label={t('Link.2')}
                 />
 
                 

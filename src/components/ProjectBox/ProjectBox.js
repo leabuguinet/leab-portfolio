@@ -9,7 +9,7 @@ const ProjectBox = (props) => {
 
     return (
 
-        <div className="projectbox">
+        <div className="projectbox scale-in-center">
 
             <div
             style={{

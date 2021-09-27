@@ -3,17 +3,13 @@ import { BrowserRouter, Route} from 'react-router-dom';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import Nav from "./components/Nav";
-import Contact from "./components/Contact";
 import About from "./components/About";
 import Footer from "./components/Footer";
 
 import React from 'react';
 
 
-
 function App() {
-
-  
 
   return (
 
@@ -27,8 +23,7 @@ function App() {
           <Nav />
         
           <Route exact path="/" component={About} />
-          <Route path="/projects" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/portfolio" component={Portfolio} />
 
         </main>
 

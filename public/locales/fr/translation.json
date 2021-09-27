@@ -8,8 +8,12 @@
         "main-paragraph": "Je m'appelle Léa. Je suis une développeuse web qui apprécie tout particulièrement le front-end mais qui n'a pas peur d'aller faire un tour dans le back ! Après avoir travaillé dans la gestion et la communication de projets artistiques et culturels, j'ai décidé d'ajouter une corde à mon arc. Être développeuse me permet d'allier ma créativité à ma rigueur, tout en répondant à ma curiosité et mon désir d'apprendre toujours plus chaque jour dans un domaine qui me passionne depuis longtemps.",
         "second-paragraph": "Je suis à la recherche d'un poste de développeur où je pourrais explorer et m'investir complètement dans les différentes missions qui me seront confiées. J'ai hâte d'évoluer dans un environnement dynamique pour rendre le web plus beau et améliorer l'expérience des utilisateurs. N'hésitez pas à me contacter !"
     },
+    "Contact":{
+        "1": "Contactez-moi"
+    },
     "Link":{
-        "1": "Voir"
+        "1": "Voir",
+        "2": "Github"
     },
     "Project":{
         "title": "Portfolio",
@@ -27,20 +31,20 @@
         "description": "En cours - Petit projet avec l'API de la Réunion des Musées Nationaux - Grand Palais. Tous les jours le site propose de découvrir, au hasard, une peinture, une sculpture et une photographie, qui font partie du fonds d'oeuvres du Musée d'Orsay",
         "technologies":"Réalisé avec:",
         "technologies-used": "PHP, JavaScript, CSS",
-        "link": "https://archipel-contact.com"
+        "link": "https://github.com/leabuguinet/DailyOrsay"
     },
     "Project3":{
         "title": "Portfolio",
         "description": "Portefolio où vous vous trouvez actuellement ! Il évolue avec le temps, les projets, et mon apprentissage quotidien...",
         "technologies":"Réalisé avec:",
         "technologies-used": "React, Sass",
-        "link": "https://leab.me"
+        "link": "https://github.com/leabuguinet/leab-portfolio"
     },
     "Project4":{
         "title": "Find My Art",
-        "description": "Projet de fin de formation : Find My Art est une artothèque. Comme dans une bibliothèque, l'utilisateur peut emprunter des oeuvres d'arts et les exposer chez soi pour une durée définie. L'utilisateur peut consulter le catalogue d'oeuvres et en réserver en se connectant à son compte personnel. ",
+        "description": "Projet de fin de formation : Find My Art est une artothèque. Comme dans une bibliothèque, l'utilisateur peut emprunter des oeuvres d'arts et les exposer chez lui pour une durée définie. L'utilisateur peut consulter le catalogue d'oeuvres et en réserver en se connectant à son compte personnel. ",
         "technologies":"Réalisé avec:",
         "technologies-used": "Symfony, JavaScript, React, MySQL, CSS",
-        "link": "https://archipel-contact.com"
+        "link": "https://github.com/leabuguinet/FindMyArt"
     }
   }

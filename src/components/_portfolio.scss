@@ -12,14 +12,23 @@ h3{
     flex-wrap: wrap;
 
     padding-bottom: 15rem;
+    z-index: -5;
     
 }
 
 @include media('>600') {
     .projectbox {
         width: calc(100% / 2 - 56px);
-        max-width: 375px;
+        max-width: 430px;
        
     }
 }
 
+@include media('>=1024') {
+    .projects-section {
+        padding-bottom: 0rem;
+    }
+}
+
+
+  

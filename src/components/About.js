@@ -15,7 +15,7 @@ const About = () => {
  
 
     return(
-        <div>
+        <div className="footer-divider about-section">
 
             <section className="about">
                 <div className="hi-span">
@@ -46,7 +46,7 @@ const About = () => {
 
 
 
-                <div className="technologies-box footer-divider">
+                <div className="technologies-box">
 
                     
                     <h3>Technologies</h3>

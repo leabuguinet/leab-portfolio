@@ -29,11 +29,6 @@ const Nav = () => {
                         {t('Nav.About')}
                     </NavLink>
                 </li>
-                <li className="navbar__item slideInDown-3">
-                    <NavLink to="/contact" className="navbar__link" onClick={handleShowLinks}>
-                        {t('Nav.Contact')}
-                    </NavLink>
-                </li>
                 <li className="navbar__item slideInDown-4 language-btn">
                     <LangChoice />
                 </li>

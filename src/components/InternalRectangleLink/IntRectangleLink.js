@@ -6,12 +6,15 @@ import { NavLink } from 'react-router-dom';
 /* Internal Link component using the i18next translation + NavLink from React Router */
 
 const StyledLink = styled.div`
+
+width: 120px;
+
 a{
     background-color: black;
-    width: 120px;
+    
     height: 40px;
     padding: 10px 30px;
-    margin: 10px 20px;
+    margin: 10px 0px;
     border: none;
     color: white;
     text-align: center;
@@ -39,7 +42,7 @@ a{
     background-color: transparent;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    left: 117px;
+    left: 95px;
     bottom: 33px;   
     transition: all 0.2s ease-in;
     opacity: 0;

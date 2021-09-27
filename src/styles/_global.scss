@@ -9,27 +9,27 @@
 body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.1rem;
+	font-size: 1rem;
 }
 
 body, html {
 	height: 100%;
 }
 
-
 h1, h2, h3, h4, h5{
-	//font-family: 'Snippet', sans-serif;
-	//font-family: 'Fira Sans', sans-serif;
-	//font-family: 'Niramit', sans-serif;
+
 	font-family: 'Signika', sans-serif;
 	font-weight: 200;
 }
 
-h3{
+h1, h2{
 	font-size: 2rem;
 }
 
-
+h3, h4{
+	font-size: 1.5rem;
+	font-weight: 500;
+}
 
 ul {
 	list-style: none;
@@ -39,17 +39,11 @@ ul {
 
 a, button {
 	text-decoration: none;
-	//font-family: 'Fira Sans', sans-serif;
-	//font-family: 'Snippet', sans-serif;
-	//font-family: 'Bellota', cursive;
 	font-family: 'Signika', sans-serif;
-	//font-family: 'Niramit', sans-serif;
 	font-weight: 200;
 	cursor: pointer;
 
 }
-
-
 
 @include media('>=1024'){
 	

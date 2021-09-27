@@ -10,9 +10,12 @@
         "second-paragraph": "I'm looking for a front-end position in a dynamic environment where I'll be able to fully get involved in my missions. I am really keen to make the web more beautiful and improve the users' experience. Don't hesitate to contact me!"
         
     }, 
+    "Contact":{
+        "1": "Contact me"
+    },
     "Link":{
         "1": "View",
-        "2": "Inception!"
+        "2": "Github"
     },
     "Project":{
         "title": "Portfolio",
@@ -37,7 +40,7 @@
         "description": "This is where you are right now! My portefolio will evolve through time with new projects... and I will improve it with my everyday learning.",
         "technologies":"Made with:",
         "technologies-used": "React, Sass",
-        "link": "https://leab.me"
+        "link": "https://github.com/leabuguinet/leab-portfolio"
     },
     "Project4":{
         "title": "Find My Art",
