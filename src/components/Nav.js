@@ -20,7 +20,7 @@ const Nav = () => {
         <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
             <ul className="navbar__links">
                 <li className="navbar__item slideInDown-1">
-                    <NavLink to="/projects" className="navbar__link" onClick={handleShowLinks}>
+                    <NavLink to="/portfolio" className="navbar__link" onClick={handleShowLinks}>
                         { t('Nav.Projects') }
                     </NavLink>
                 </li>

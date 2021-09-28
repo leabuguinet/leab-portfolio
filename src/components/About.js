@@ -26,9 +26,9 @@ const About = () => {
                 
                 <div className="about-links">
 
-                    <IntRectangleLink href="/projects" label='Nav.Projects' />
+                    <IntRectangleLink href="/portfolio" label='Nav.Projects' />
 
-                    <Link to="/files/leabuguinetcv.pdf" className="about-link-download" target="_blank" download>CV</Link>
+                    <Link to={t('CV.1')} className="about-link-download" target="_blank" download>CV</Link>
 
                 </div>
 
