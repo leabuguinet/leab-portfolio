@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import "../i18n";
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import IntRectangleLink from './InternalRectangleLink/IntRectangleLink';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -15,7 +15,7 @@ const About = () => {
  
 
     return(
-        <div className="footer-divider about-section">
+        <div className="about-section">
 
             <section className="about">
                 <div className="hi-span">
@@ -34,21 +34,31 @@ const About = () => {
 
                 <p>{t('About.second-paragraph')}</p> 
 
-            </section>
-
-            <section className="about-technologies">
-
-                <div className="about-technologies-divider">
+                <div class="divider-beige-2">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+                        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" className="shape-fill"></path>
                     </svg>
                 </div>
 
 
+                <div class="divider-beige">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" className="shape-fill"></path>
+                    </svg>
+                </div>
+
+                
+
+            </section>
+
+
+
+
+
+            <section className="about-technologies">
 
                 <div className="technologies-box">
 
-                    
                     <h3>Technologies</h3>
                     
                     <div className="technologies-list">
@@ -71,10 +81,18 @@ const About = () => {
                             
                         </ul>
                     </div>
+
+                    <div class="footer-divider">
+                        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" className="shape-fill"></path>
+                        </svg>
+                    </div>
+
+                    
                         
                 </div>
-
             </section>
+            
         </div>
     )
 

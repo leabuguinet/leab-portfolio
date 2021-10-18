@@ -10,17 +10,14 @@ h3{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    position: relative;
     padding-bottom: 15rem;
-    z-index: -5;
-    
 }
 
 @include media('>600') {
     .projectbox {
         width: calc(100% / 2 - 56px);
         max-width: 430px;
-       
     }
 }
 
