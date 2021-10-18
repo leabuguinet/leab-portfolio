@@ -24,7 +24,7 @@ const Portfolio = () => {
     return(
         <div>
 
-            <section className="projects-section footer-divider">
+            <section className="projects-section">
                 <ProjectBox 
                     img={archipel} 
                     title={t('Project1.title')}
@@ -33,6 +33,10 @@ const Portfolio = () => {
                     technologiesused={t('Project1.technologies-used')}
                     href={t('Project1.link')}
                     label={t('Link.1')}
+                    secondLink={true}
+                    href2={t('Project1.githublink')}
+                    label2={t('Link.2')}
+
                 />
 
                 <ProjectBox 
@@ -43,6 +47,9 @@ const Portfolio = () => {
                     technologiesused={t('Project2.technologies-used')}
                     href={t('Project2.link')}
                     label={t('Link.1')}
+                    secondLink={true}
+                    href2={t('Project2.githublink')}
+                    label2={t('Link.2')}
                 />
 
                 <ProjectBox 
@@ -51,8 +58,10 @@ const Portfolio = () => {
                     description={t('Project3.description')}
                     technologies={t('Project3.technologies')}
                     technologiesused={t('Project3.technologies-used')}
-                    href={t('Project3.link')}
+                    href={t('Project3.githublink')}
                     label={t('Link.2')}
+                    secondLink={false}
+                   
                 />
 
                 <ProjectBox 
@@ -61,9 +70,17 @@ const Portfolio = () => {
                     description={t('Project4.description')}
                     technologies={t('Project4.technologies')}
                     technologiesused={t('Project4.technologies-used')}
-                    href={t('Project4.link')}
+                    href={t('Project4.githublink')}
                     label={t('Link.2')}
+                    secondLink={false}
                 />
+
+                <div className="footer-divider">
+                        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                            <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+                        </svg>
+                </div>
+
 
                 
             </section>

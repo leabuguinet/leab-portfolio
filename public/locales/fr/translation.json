@@ -15,6 +15,7 @@
         "1": "Voir",
         "2": "Github"
     },
+
     "CV":{
         "1": "/files/leabuguinetcv.pdf"
     },
@@ -27,27 +28,30 @@
         "description": "Refonte complète du site internet de l'agence réceptive Archipel Contact, spécialisée en conception de voyage en Indonésie.",
         "technologies":"Réalisé avec\u00a0:",
         "technologies-used": "Symfony, Sass, MySQL",
-        "link": "https://archipel-contact.com"
+        "link": "https://archipel-contact.com",
+        "githublink": "https://github.com/Nathalie-Thisse/archipelcontact"
+        
     },
     "Project2":{
         "title": "Daily Orsay",
         "description": "En cours - Petit projet avec l'API de la Réunion des Musées Nationaux - Grand Palais. Tous les jours le site propose de découvrir, au hasard, une peinture, une sculpture et une photographie, qui font partie du fonds d'oeuvres du Musée d'Orsay",
         "technologies":"Réalisé avec\u00a0:",
         "technologies-used": "PHP, JavaScript, CSS",
-        "link": "https://github.com/leabuguinet/DailyOrsay"
+        "link": "https://dailyorsay.leab.me",
+        "githublink": "https://github.com/leabuguinet/DailyOrsay"
     },
     "Project3":{
         "title": "Portfolio",
         "description": "Portefolio où vous vous trouvez actuellement ! Il évolue avec le temps, les projets, et mon apprentissage quotidien...",
         "technologies":"Réalisé avec\u00a0:",
         "technologies-used": "React, Sass",
-        "link": "https://github.com/leabuguinet/leab-portfolio"
+        "githublink": "https://github.com/leabuguinet/leab-portfolio"
     },
     "Project4":{
         "title": "Find My Art",
         "description": "Projet de fin de formation\u00a0: Find My Art est une artothèque. Comme dans une bibliothèque, l'utilisateur peut emprunter des oeuvres d'arts et les exposer chez lui pour une durée définie. L'utilisateur peut consulter le catalogue d'oeuvres et en réserver en se connectant à son compte personnel. ",
         "technologies":"Réalisé avec\u00a0:",
         "technologies-used": "Symfony, JavaScript, React, MySQL, CSS",
-        "link": "https://github.com/leabuguinet/FindMyArt"
+        "githublink": "https://github.com/leabuguinet/FindMyArt"
     }
   }

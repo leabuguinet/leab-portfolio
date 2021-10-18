@@ -5,7 +5,23 @@ import "./_projectbox.scss";
 
 /* Component to show a project  */
 
-const ProjectBox = (props) => {
+function ProjectBox(props) {
+
+    let extLink;
+    const secondLink = props.secondLink;
+
+    if(secondLink){
+        extLink =   <div>
+                        <ExtRectangleLink href={props.href} label={props.label} />
+                        <ExtRectangleLink href={props.href2} label={props.label2} />
+                    </div>;
+
+    } else{
+        extLink =   <div>
+                        <ExtRectangleLink href={props.href} label={props.label} /> 
+                    </div>;
+    }
+
 
     return (
 
@@ -24,11 +40,9 @@ const ProjectBox = (props) => {
             <p>{props.description}</p>
 
             <p>{props.technologies} {props.technologiesused}</p>
-
-
-            <ExtRectangleLink href={props.href} label={props.label} />
-
-
+            
+            {extLink}
+            
         </div>
 
     )
