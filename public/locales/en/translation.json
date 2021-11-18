@@ -6,7 +6,8 @@
 
     },
     "About": {
-        "main-paragraph": "I'm Lea ! I'm a web developer who loves front-end but who is not afraid to go and check the back-end. I used to organise cultural and artistic projects, but to find a job that really fits me, I've decided to add a string to my bow... and here I am! I have always been interested in the web and being a developer allows me to combine this passion, my rigour, my creativity and my desire to learn something new everyday.",
+        "job": "Web Developer",
+        "main-paragraph": "I'm Lea! I'm a web developer who loves front-end but who is not afraid to go and check the back-end. I used to organise cultural and artistic projects, but to find a job that really fits me, I've decided to add a string to my bow... and here I am! I have always been interested in the web and being a developer allows me to combine this passion, my rigour, my creativity and my desire to learn something new everyday.",
         "second-paragraph": "I'm looking for a front-end position in a dynamic environment where I'll be able to fully get involved in my missions. I am really keen to make the web more beautiful and improve the user experience. Don't hesitate to contact me!"
     }, 
     "Contact":{

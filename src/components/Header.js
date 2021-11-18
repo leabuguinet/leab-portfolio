@@ -1,10 +1,13 @@
 import React from 'react';
 import '../components/_header.scss';
 import profilepicture from '../assets/images/lb-profilepicture.jpg';
-
+import { useTranslation } from 'react-i18next';
+import "../i18n";
 
 
 const Header = () => {
+
+    const { t } = useTranslation();
 
     // Declare a new state variable with the "useState" Hook
     const [width, setWidth] = React.useState(window.innerWidth);
@@ -28,7 +31,7 @@ const Header = () => {
         <header className="header">
 
             <h1>Léa Buguinet</h1>
-            <h2>Web Developper</h2>
+            <h2>{t('About.job')}</h2>
 
             <div className="profilepicture-border">
                 <img className="profilepicture" src={ profilepicture } alt="Léa Buguinet" />
