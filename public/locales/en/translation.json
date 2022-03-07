@@ -53,5 +53,12 @@
         "technologies":"Made with:",
         "technologies-used": "Symfony, JavaScript, React, MySQL, CSS",
         "githublink": "https://github.com/leabuguinet/FindMyArt"
+    },
+    "Project5":{
+        "title": "Marileme",
+        "description": "Creation of a e-shop website for Creantec's new luxury decoration brand, Marileme.",
+        "technologies":"Made with:",
+        "technologies-used": "Wordpress - Gantry, PHP, JS, SASS",
+        "link": "https://marileme.com"
     }
 }

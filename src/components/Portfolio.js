@@ -15,7 +15,7 @@ import archipel from '../assets/images/archipel.png';
 import dailyorsay from '../assets/images/dailyorsay.png';
 import findmyart from '../assets/images/findmyart.png';
 import leabme from '../assets/images/leabme.png';
-
+import marileme from '../assets/images/marileme.png';
 
 const Portfolio = () => {
 
@@ -36,6 +36,18 @@ const Portfolio = () => {
                     secondLink={true}
                     href2={t('Project1.githublink')}
                     label2={t('Link.2')}
+
+                />
+
+                <ProjectBox 
+                    img={marileme} 
+                    title={t('Project5.title')}
+                    description={t('Project5.description')}
+                    technologies={t('Project5.technologies')}
+                    technologiesused={t('Project5.technologies-used')}
+                    href={t('Project5.link')}
+                    label={t('Link.1')}
+                    secondLink={false}
 
                 />
 
