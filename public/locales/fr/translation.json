@@ -60,6 +60,13 @@
         "technologies":"Réalisé avec\u00a0:",
         "technologies-used": "Wordpress - Gantry, PHP, JS, SASS",
         "link": "https://marileme.com"
+    },
+    "Project6":{
+        "title": "Les Grands Espaces",
+        "description": "Refonte du site Les Grands Espaces, association d'éducation à l'image et de créations artistiques pour l'Espace Public.",
+        "technologies":"Réalisé avec\u00a0:",
+        "technologies-used": "Wordpress - Gantry, PHP, JS, SASS",
+        "link": "https://les-grands-espaces.net"
     }
 
 

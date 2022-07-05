@@ -60,5 +60,12 @@
         "technologies":"Made with:",
         "technologies-used": "Wordpress - Gantry, PHP, JS, SASS",
         "link": "https://marileme.com"
+    },
+    "Project6":{
+        "title": "Les Grands Espaces",
+        "description": "Complete redesign and restructuring of the website Les Grands Espaces, a non-profit organisation specialised in film education",
+        "technologies":"Made with:",
+        "technologies-used": "Wordpress - Gantry, PHP, JS, SASS",
+        "link": "https://les-grands-espaces.net"
     }
 }

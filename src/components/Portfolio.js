@@ -25,6 +25,20 @@ const Portfolio = () => {
         <div>
 
             <section className="projects-section">
+
+                <ProjectBox 
+                    img={marileme} 
+                    title={t('Project6.title')}
+                    description={t('Project6.description')}
+                    technologies={t('Project6.technologies')}
+                    technologiesused={t('Project6.technologies-used')}
+                    href={t('Project6.link')}
+                    label={t('Link.1')}
+                    secondLink={false}
+
+                />
+
+                
                 <ProjectBox 
                     img={archipel} 
                     title={t('Project1.title')}
