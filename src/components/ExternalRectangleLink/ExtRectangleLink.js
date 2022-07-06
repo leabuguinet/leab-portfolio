@@ -11,7 +11,7 @@ a{
     width: 120px;
     height: 40px;
     padding: 10px 30px;
-    margin: 10px 20px;
+    
     border: none;
     color: white;
     text-align: center;
@@ -39,8 +39,8 @@ a{
     background-color: transparent;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    left: 117px;
-    bottom: 33px;   
+    left: 96px;
+    bottom: 24px; 
     transition: all 0.2s ease-in;
     opacity: 0;
 } 

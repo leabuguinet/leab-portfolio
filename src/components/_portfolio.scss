@@ -14,12 +14,7 @@ h3{
     padding-bottom: 15rem;
 }
 
-@include media('>600') {
-    .projectbox {
-        width: calc(100% / 2 - 56px);
-        max-width: 430px;
-    }
-}
+
 
 @include media('>=1024') {
     .projects-section {
