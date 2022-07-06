@@ -16,6 +16,7 @@ import dailyorsay from '../assets/images/dailyorsay.png';
 import findmyart from '../assets/images/findmyart.png';
 import leabme from '../assets/images/leabme.png';
 import marileme from '../assets/images/marileme.png';
+import lesgrandsespaces from '../assets/images/lesgrandsespaces.png';
 
 const Portfolio = () => {
 
@@ -27,7 +28,7 @@ const Portfolio = () => {
             <section className="projects-section">
 
                 <ProjectBox 
-                    img={marileme} 
+                    img={lesgrandsespaces} 
                     title={t('Project6.title')}
                     description={t('Project6.description')}
                     technologies={t('Project6.technologies')}
