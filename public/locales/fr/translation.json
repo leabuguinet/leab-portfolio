@@ -69,7 +69,14 @@
         "technologies":"Réalisé avec\u00a0:",
         "technologies-used": "Wordpress - Gantry, PHP, JS, SASS",
         "link": "https://les-grands-espaces.net"
+    },
+    "Project7":{
+        "title": "The ProCATination Game",
+        "description": "Jouez à 'Pierre Feuille Ciseaux' contre un chat, qui décidera si vous avez le droit ou non de procrastiner...",
+        "technologies":"Réalisé avec\u00a0:",
+        "technologies-used": "React, Material UI",
+        "link": "https://procatination.leab.me",
+        "githublink": "https://github.com/leabuguinet/procatinationgame"
     }
-
 
   }

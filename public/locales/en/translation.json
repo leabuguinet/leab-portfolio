@@ -68,5 +68,14 @@
         "technologies":"Made with:",
         "technologies-used": "Wordpress - Gantry, PHP, JS, SASS",
         "link": "https://les-grands-espaces.net"
+    },
+    "Project7":{
+        "title": "The ProCATination Game",
+        "description": "Play 'rock-paper-scissors' against a cat. If you win, you will have the right to procrastinate...maybe.",
+        "technologies":"Made with:",
+        "technologies-used": "React, Material UI",
+        "link": "https://procatination.leab.me",
+        "githublink": "https://github.com/leabuguinet/procatinationgame"
     }
+
 }

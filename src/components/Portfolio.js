@@ -17,6 +17,7 @@ import findmyart from '../assets/images/findmyart.png';
 import leabme from '../assets/images/leabme.png';
 import marileme from '../assets/images/marileme.png';
 import lesgrandsespaces from '../assets/images/lesgrandsespaces.png';
+import procatination from '../assets/images/procatination.png';
 
 const Portfolio = () => {
 
@@ -76,6 +77,19 @@ const Portfolio = () => {
                     label={t('Link.1')}
                     secondLink={true}
                     href2={t('Project2.githublink')}
+                    label2={t('Link.2')}
+                />
+
+                <ProjectBox 
+                    img={procatination} 
+                    title={t('Project7.title')}
+                    description={t('Project7.description')}
+                    technologies={t('Project7.technologies')}
+                    technologiesused={t('Project7.technologies-used')}
+                    href={t('Project7.link')}
+                    label={t('Link.1')}
+                    secondLink={true}
+                    href2={t('Project7.githublink')}
                     label2={t('Link.2')}
                 />
 
