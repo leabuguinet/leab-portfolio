@@ -76,6 +76,14 @@
         "technologies-used": "React, Material UI",
         "link": "https://procatination.leab.me",
         "githublink": "https://github.com/leabuguinet/procatinationgame"
+    },
+    "Project8":{
+        "title": "KARABA F.C.",
+        "description": "Creation and monthly updates of KARABA F.C band's website",
+        "technologies":"Made with:",
+        "technologies-used": "React",
+        "link": "https://karabafc.com",
+        "githublink": "https://github.com/leabuguinet/karaba-fc"
     }
 
 }

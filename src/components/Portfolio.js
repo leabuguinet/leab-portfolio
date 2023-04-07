@@ -18,6 +18,7 @@ import leabme from '../assets/images/leabme.png';
 import marileme from '../assets/images/marileme.png';
 import lesgrandsespaces from '../assets/images/lesgrandsespaces.png';
 import procatination from '../assets/images/procatination.png';
+import karabafc from '../assets/images/karabafc.png'
 
 const Portfolio = () => {
 
@@ -27,6 +28,20 @@ const Portfolio = () => {
         <div>
 
             <section className="projects-section">
+                
+                <ProjectBox 
+                        img={karabafc} 
+                        title={t('Project8.title')}
+                        description={t('Project8.description')}
+                        technologies={t('Project8.technologies')}
+                        technologiesused={t('Project8.technologies-used')}
+                        href={t('Project8.link')}
+                        label={t('Link.1')}
+                        secondLink={true}
+                        href2={t('Project8.githublink')}
+                        label2={t('Link.2')}
+
+                    />
 
                 <ProjectBox 
                     img={lesgrandsespaces} 
